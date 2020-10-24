@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+    font-family: 'Comfortaa', sans-serif;
+    background-image: url(jimin.jpg);
+    background-size: cover;
+}
+
+nav {
+	background-color: cadetblue;
+	padding: 2px;
+	position: fixed;
+	top: 0;
+	margin: 0;
+	width: 100%;
+}
+
+h1 {
+    color: black;
+    margin-top: 100px;
+}
+
+p {
+    font-size: small;
+    font-family: 'Comfortaa';
+}
+
+li {
+	display: inline;
+	list-style-type: none;
+	margin-right: 20px;
+}
+
+#content {
+    margin: 0;
+    text-align: center;
+}
+
+#container {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 1000px)
